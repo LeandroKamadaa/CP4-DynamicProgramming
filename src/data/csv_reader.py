@@ -1,5 +1,7 @@
 import csv
 
+# Le o CSV e transforma em uma lista de dicionários
+
 caminho_arquivo = 'data/rotas.csv'
 
 with open(caminho_arquivo, mode='r', encoding='utf-8') as arquivo:

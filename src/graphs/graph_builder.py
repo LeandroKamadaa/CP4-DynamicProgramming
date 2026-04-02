@@ -1,6 +1,7 @@
 import pandas as pd
 import networkx as nx
 
+
 def csv_para_grafo(caminho_arquivo, coluna_origem, coluna_destino, direcionado=False):
     # Carrega o CSV
     df = pd.read_csv(caminho_arquivo)
@@ -23,5 +24,5 @@ def csv_para_grafo(caminho_arquivo, coluna_origem, coluna_destino, direcionado=F
     return G
 
 # Exemplo de uso:
-# grafo = csv_para_grafo('data/rotas.csv', 'origem', 'destino')
-# print(grafo.edges(data=True))
+grafo = csv_para_grafo('data/rotas.csv', 'origem', 'destino')
+print(grafo.edges(data=True))
