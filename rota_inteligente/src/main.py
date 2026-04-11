@@ -33,7 +33,7 @@ from visualizacao import plotar_grafo, plotar_comparacao, plotar_mapa_calor_risc
 
 
 # ---------------------------------------------------------------------------
-# Pares origem→destino por cenário (baseados no CSV)
+# Pares origem→destino por cenário (baseados no CSV).
 # ---------------------------------------------------------------------------
 PARES_CENARIO = {
     "A": ("Ribeirao_Preto", "Belo_Horizonte"),
